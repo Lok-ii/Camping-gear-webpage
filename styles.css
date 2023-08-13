@@ -1,20 +1,23 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     font-family: "Poppins", sans-serif;
     background-color: #F2F2F2;
 }
+
 body a {
     text-decoration: none;
 }
 
-header{
+header {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -24,7 +27,7 @@ header{
     color: white;
 }
 
-nav{
+nav {
     display: flex;
     height: 77px;
     padding: 0 10px;
@@ -32,21 +35,22 @@ nav{
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-.navbar{
+.navbar {
     display: flex;
     gap: 40px;
 
 }
-nav a{
+
+nav a {
     color: white;
 }
 
 /* <-- main --> */
-    /* <--home--> */
-.home{
+/* <--home--> */
+.home {
     background-image: url(./family-camping-at-sunset.jpg);
     height: 100vh;
     width: 100%;
@@ -55,7 +59,7 @@ nav a{
     background-attachment: fixed;
 }
 
-.details{
+.details {
     background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
     text-align: center;
@@ -64,17 +68,17 @@ nav a{
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-.details h1{
+.details h1 {
     font-size: 60px;
     margin-bottom: 10px;
 }
 
-.details p{
+.details p {
     font-size: 20px;
     margin-bottom: 62px;
 }
 
-.details a{
+.details a {
     margin: 0 10px;
     padding: 12px 32px;
     background-color: white;
@@ -85,37 +89,37 @@ nav a{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.details a:hover{
+.details a:hover {
     transition: 0.4s ease;
     color: white;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-    /* <--services--> */
+/* <--services--> */
 
-.services{
+.services {
     height: 950px;
     text-align: center;
     padding-top: 85px;
 }
 
-.services h1{
+.services h1 {
     font-size: 32px;
 }
 
-.services p{
+.services p {
     margin-bottom: 30px;
 }
 
-.servicelist{
+.servicelist {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 45px;
     padding-top: 20px;
- }
+}
 
-.list{
+.list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,7 +131,7 @@ nav a{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
 }
 
-.list img{
+.list img {
     margin-top: 40px;
     margin-bottom: 20px;
     width: 120px;
@@ -136,13 +140,13 @@ nav a{
     border-radius: 50%;
 }
 
-.list p{
+.list p {
     width: 85%;
 }
 
-    /* <--about us--> */
+/* <--about us--> */
 
-.about_us{
+.about_us {
     height: 850px;
     text-align: center;
     margin: 0 auto;
@@ -151,30 +155,30 @@ nav a{
 }
 
 
-.about_us h1{
+.about_us h1 {
     font-size: 32px;
 }
 
-.about_us p{
+.about_us p {
     margin-bottom: 30px;
 }
 
-.goals{
+.goals {
     padding: 1px 10px;
     text-align: left;
 }
 
-.goals h3{
+.goals h3 {
     margin: 30px 0 10px 0;
 }
 
-.goals ul{
+.goals ul {
     padding-left: 20px;
 }
 
-    /* <--contact us--> */
+/* <--contact us--> */
 
-.contact_us{
+.contact_us {
     height: 550px;
     text-align: center;
     margin: 0 auto;
@@ -182,21 +186,21 @@ nav a{
 }
 
 
-.contact_us h1{
+.contact_us h1 {
     font-size: 32px;
 }
 
-.contact_us p{
+.contact_us p {
     margin-bottom: 30px;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.address{
+.address {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -204,20 +208,21 @@ nav a{
     margin: 90px 0;
 }
 
-.material-icons{
+.material-icons {
     color: #7A7A7A;
 }
-.fulldetails{
+
+.fulldetails {
     margin-bottom: 1px;
 }
 
-.eachdetail{
+.eachdetail {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
@@ -226,11 +231,11 @@ form{
     gap: 20px;
 }
 
-form:active{
+form:active {
     border: none;
 }
 
-form input{
+form input {
     width: 530px;
     height: 45px;
     padding: 10px;
@@ -247,7 +252,7 @@ form textarea {
     outline: none;
 }
 
-#submit{
+#submit {
     background-color: #333232;
     color: white;
     width: 165px;
@@ -256,6 +261,7 @@ form textarea {
     cursor: pointer;
 }
 
-#submit:hover{
-    background-color: rgba(0, 0, 0, 0.7);;
+#submit:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    ;
 }

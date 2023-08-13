@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #F2F2F2;
+}
+body a {
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #333232;
+    width: 100%;
+    z-index: 6;
+    color: white;
+}
+
+nav{
+    display: flex;
+    height: 77px;
+    padding: 0 10px;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 40px;
+
+}
+nav a{
+    color: white;
+}
+
+/* <-- main --> */
+    /* <--home--> */
+.home{
+    background-image: url(./family-camping-at-sunset.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.details{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    text-align: center;
+    padding-top: 15.4%;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.details h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.details p{
+    font-size: 20px;
+    margin-bottom: 62px;
+}
+
+.details a{
+    margin: 0 10px;
+    padding: 12px 32px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.details a:hover{
+    transition: 0.4s ease;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+    /* <--services--> */
+
+.services{
+    height: 950px;
+    text-align: center;
+    padding-top: 85px;
+}
+
+.services h1{
+    font-size: 32px;
+}
+
+.services p{
+    margin-bottom: 30px;
+}
+
+.servicelist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    padding-top: 20px;
+ }
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 365px;
+    height: 335px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+}
+
+.list img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.list p{
+    width: 85%;
+}
+
+    /* <--about us--> */
+
+.about_us{
+    height: 850px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 85px;
+}
+
+
+.about_us h1{
+    font-size: 32px;
+}
+
+.about_us p{
+    margin-bottom: 30px;
+}
+
+.goals{
+    padding: 1px 10px;
+    text-align: left;
+}
+
+.goals h3{
+    margin: 30px 0 10px 0;
+}
+
+.goals ul{
+    padding-left: 20px;
+}
+
+    /* <--contact us--> */
+
+.contact_us{
+    height: 550px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.contact_us h1{
+    font-size: 32px;
+}
+
+.contact_us p{
+    margin-bottom: 30px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 90px 0;
+}
+
+.material-icons{
+    color: #7A7A7A;
+}
+.fulldetails{
+    margin-bottom: 1px;
+}
+
+.eachdetail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    width: 40%;
+    margin: 50px 0;
+    gap: 20px;
+}
+
+form:active{
+    border: none;
+}
+
+form input{
+    width: 530px;
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bfbfbf;
+    outline: none;
+}
+
+form textarea {
+    width: 530px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bfbfbf;
+    outline: none;
+}
+
+#submit{
+    background-color: #333232;
+    color: white;
+    width: 165px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgba(0, 0, 0, 0.7);;
+}
